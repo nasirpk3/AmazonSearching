@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-04T20:14:53 PKT" name="Default suite" finished-at="2022-06-04T20:17:46 PKT" duration-ms="173120">
+    <groups>
+    </groups>
+    <test started-at="2022-06-04T20:14:53 PKT" name="Default test" finished-at="2022-06-04T20:17:46 PKT" duration-ms="173120">
+      <class name="tests.SearchTestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchTestCases@72cde7cc]" started-at="2022-06-04T20:14:53 PKT" name="setup" finished-at="2022-06-04T20:15:10 PKT" duration-ms="16507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchWristWatch()[pri:0, instance:tests.SearchTestCases@72cde7cc]" started-at="2022-06-04T20:15:10 PKT" name="searchWristWatch" finished-at="2022-06-04T20:17:42 PKT" duration-ms="152419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWristWatch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchTestCases@72cde7cc]" started-at="2022-06-04T20:17:42 PKT" name="teardown" finished-at="2022-06-04T20:17:46 PKT" duration-ms="4169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.SearchTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
