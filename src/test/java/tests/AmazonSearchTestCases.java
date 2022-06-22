@@ -13,8 +13,8 @@ public class AmazonSearchTestCases extends BaseTest{
 	
 	@Test
 	public void searchWristWatchWithFilters() throws InterruptedException {
-		AmazonSearch obj = new AmazonSearch(driver, wait);
-		obj.searchWristWatch();
+		AmazonSearch search = new AmazonSearch(driver, wait);
+		search.searchWristWatch();
 		Thread.sleep(2000);
 	}
 }

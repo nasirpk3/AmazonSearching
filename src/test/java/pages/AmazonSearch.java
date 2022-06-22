@@ -58,21 +58,18 @@ public class AmazonSearch extends BasePage{
 		//code for switching to new tab.
 		
 			ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+			//switch to the child tab
 			driver.switchTo().window(tabs.get(1)); //Tab number
-
-			//Can change it for next tab like that or previous:
-
-			driver.switchTo().window(tabs.get(1));
 		
 			//wait for product title visibility
 			waitVisibility(productTitleBy);				
 			System.out.println("Fifth Item in search results is: " + readText(productTitleBy));
 		
-			//close newly opened tab
+			//close newly opened child tab
 			driver.close();
 		
-		//switch the handle back to the parrent tab.
-		driver.switchTo().window(tabs.get(0));
+			//switch the handle back to the parrent tab.
+			driver.switchTo().window(tabs.get(0));
 			
 		
 	}
